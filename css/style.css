@@ -76,6 +76,9 @@ h1{
 .mg-40-top{
     margin-top: 40px;
 }
+.mg-40-left{
+    margin-left: 40px;
+}
 .icon-size-50{
     font-size: 5vh;
     margin-bottom: 10px;
@@ -232,4 +235,44 @@ h1{
     width: 100%;
     aspect-ratio: 1/1;
     border: 1px solid black;
+}
+.just-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 50%;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+.green{
+    background-color: #a2d29a;
+    border: 15px solid #d0e9cc;
+}
+.bordeaux{
+    background-color: #60082a;
+}
+.lightblue{
+    background-color: #0192ce;
+}
+.orange{
+    background-color: #ff1d1d;
+}
+.red{
+    background-color: #d4001e;
+}
+.skyblue{
+    background-color: #b4d0e7;
+}
+.blue{
+    background-color: #0c2480;
+}
+.yellow{
+    background-color: #fed930;
+}
+.grey{
+    background-color: #f5f4f4;
+}
+.logo-33{
+    width: 50%;
 }
