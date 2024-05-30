@@ -214,3 +214,6 @@ h1{
 .label-border-black{
     border: 1px solid black;
 }
+.mg-100-bottom{
+    margin-bottom: 100px;
+}
