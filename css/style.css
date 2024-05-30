@@ -234,7 +234,9 @@ h1{
 .content-box{
     width: 100%;
     aspect-ratio: 1/1;
-    border: 1px solid black;
+}
+.pd-top-40{
+    padding-top: 40px;
 }
 .just-center{
     display: flex;
@@ -275,4 +277,15 @@ h1{
 }
 .logo-33{
     width: 50%;
+}
+.label-bg-white{
+    background-color: #fff;
+    padding: 10px 50px 10px 50px;
+    float: right;
+}
+.content-padding{
+    padding: 100px 0px 100px 0px;
+}
+.bordeaux-text{
+    color: #60082a;
 }
