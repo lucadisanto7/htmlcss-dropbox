@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: "Open Sans", sans-serif;
+}
 /* COLUMNS */
 .col-20{
     width: 20%;
