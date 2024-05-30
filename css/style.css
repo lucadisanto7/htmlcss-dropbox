@@ -29,7 +29,12 @@ ul{
     color: rgba(0, 0, 0, 0.685);
     font-size: 1.7vh;
     text-decoration: none;
-
+}
+.decoration-none{
+    text-decoration: none;
+}
+.white-text{
+    color: #fff;
 }
 .right{
     float: right;
@@ -37,7 +42,6 @@ ul{
 }
 .label{
     padding: 10px 13px;
-    color: #fff;
 }
 .label-bg-blue{
     background-color: rgb(0, 110, 255);
@@ -134,6 +138,9 @@ h1{
 .mg-10{
     margin-bottom: 10px;
 }
+.mg-30{
+    margin-bottom: 30px;
+}
 .item{
     display: flex;
     align-items: flex-start
@@ -143,7 +150,6 @@ h1{
 }
 .label-two{
     padding: 10px 18px;
-    color: #fff;
     text-align: center;
     margin-top: 40px;
 }
