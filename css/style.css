@@ -60,17 +60,18 @@ body{
 }
 .main-container-sm{
     max-width: 900px;
+}
+.margin-zero{
     margin: 0 auto;
 }
 .col-margin{
     margin-right: 25px;
     margin-left: 25px;
 }
-.main-container-full{
+.main-container-full, .content-box{
     width: 100%;
 }
 .content-box{
-    width: 100%;
     aspect-ratio: 1/1;
 }
 /* END OF LAYOUT */
@@ -111,7 +112,6 @@ ul{
 }
 .main-container-lg{
     max-width: 1100px;
-    margin: 0 auto;
 }
 .bg-lightblue{
     background-color: rgb(173, 204, 230);
@@ -141,7 +141,6 @@ h1{
     line-height: 20px;
 }
 .jumbo{
-    width: 100%;
     position: absolute;
     top: 40px;
 }
@@ -231,7 +230,7 @@ h1{
 .left-border{
     border-left: 0px;
 }
-.main-img{
+.main-img, .jumbo{
     width: 100%;
 }
 .mg-100-top{
