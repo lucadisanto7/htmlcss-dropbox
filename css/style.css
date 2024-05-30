@@ -194,7 +194,7 @@ h1{
 .col-60{
     width: 60%;
 }
-.partner{
+.main-img{
     width: 100%;
 }
 .mg-100-top{
@@ -212,4 +212,8 @@ h1{
 }
 .label-border-black{
     border: 1px solid black;
+}
+.col-33-two{
+    width: calc(100% / 3 - 20px);
+    margin-right: 20px;
 }
