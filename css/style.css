@@ -109,7 +109,6 @@ h1{
     margin-right: 30px;
 }
 .col-33{
-    border: 1px solid rgba(70, 69, 69, 0.5);
     width: calc(100% / 3 - 40px);
     margin-right: 40px;
 }
@@ -189,6 +188,8 @@ h1{
 }
 .black-border{
     border: 1px solid rgba(70, 69, 69, 0.5);
+}
+.left-border{
     border-left: 0px;
 }
 .col-60{
@@ -212,8 +213,4 @@ h1{
 }
 .label-border-black{
     border: 1px solid black;
-}
-.col-33-two{
-    width: calc(100% / 3 - 20px);
-    margin-right: 20px;
 }
