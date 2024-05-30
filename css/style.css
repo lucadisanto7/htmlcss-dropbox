@@ -67,8 +67,10 @@ h1{
 .col-70{
     width: 70%;
 }
-.mg-40{
+.mg-40-bottom{
     margin-bottom: 40px;
+}
+.mg-40-top{
     margin-top: 40px;
 }
 .icon-size-50{
@@ -104,7 +106,7 @@ h1{
     margin-right: 80px;
 }
 .col-33{
-    border: 1px solid black;
+    border: 1px solid rgba(70, 69, 69, 0.5);
     width: calc(100% / 3 - 40px);
     margin-right: 40px;
 }
@@ -112,7 +114,7 @@ h1{
     display: flex;
     justify-content: center;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid rgba(70, 69, 69, 0.5);
     border-top: 0px;
     border-right: 0px;
     border-left: 0px;
@@ -169,7 +171,19 @@ h1{
     display: flex;
     justify-content: center;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid rgba(70, 69, 69, 0.5);
     margin-top: 40px;
-    width: calc(100% - 40px)
+    width: calc(100% - 40px);
+    border-bottom: 0px;
+}
+.col-70-two{
+    width: calc(70% - 40px);
+    border: 1px solid rgba(70, 69, 69, 0.5);
+    border-right: 0px;
+}
+.mrgn-bot-80{
+    margin-bottom: 80px;
+}
+.black-border{
+    border: 1px solid rgba(70, 69, 69, 0.5);
 }
