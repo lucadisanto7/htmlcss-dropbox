@@ -110,6 +110,8 @@ h1{
 }
 .col-33{
     width: calc(100% / 3 - 40px);
+}
+.mg-40-right{
     margin-right: 40px;
 }
 .top-icon{
@@ -216,4 +218,18 @@ h1{
 }
 .mg-100-bottom{
     margin-bottom: 100px;
+}
+.main-container-full{
+    width: 100%;
+}
+.col-33-two{
+    width: calc(100% / 3);
+}
+.col-25{
+    width: 50%;
+}
+.content-box{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
 }
