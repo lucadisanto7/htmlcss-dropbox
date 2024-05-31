@@ -102,11 +102,25 @@ body{
 ul{
     list-style: none;
 }
-.head-list{
+.head-list, 
+.top-icon,
+.item,
+.top-icon-full,
+.just-center{
     display: flex;
+}
+.top-icon,
+.top-icon-full,
+.just-center{
+    justify-content: center;
+}
+.head-list,
+.just-center{
+    align-items: center;
+}
+.head-list{
     flex-direction: row;
     gap: 40px;
-    align-items: center;
 }
 .head-link{
     color: rgba(0, 0, 0, 0.685);
@@ -142,10 +156,7 @@ h1{
     margin: 70px 0px 70px 0px;
 }
 .top-icon{
-    display: flex;
-    justify-content: center;
     padding: 10px;
-    border: 1px solid rgba(70, 69, 69, 0.5);
     border-top: 0px;
     border-right: 0px;
     border-left: 0px;
@@ -155,7 +166,6 @@ h1{
     font-size: 1.5vh;
 }
 .item{
-    display: flex;
     align-items: flex-start
 }
 .col-33-text{
@@ -171,10 +181,7 @@ h1{
     width: 20%;
 }
 .top-icon-full{
-    display: flex;
-    justify-content: center;
     padding: 10px;
-    border: 1px solid rgba(70, 69, 69, 0.5);
     width: calc(100% - 40px);
     border-bottom: 0px;
 }
@@ -186,11 +193,6 @@ h1{
 }
 .main-img, .jumbo{
     width: 100%;
-}
-.just-center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .logo{
     width: 50%;
@@ -298,11 +300,11 @@ footer{
 .pd-40{
     padding: 40px 0px;
 }
-.pd-top-80{
-    padding-top: 80px;
-}
 .pd-top-40{
     padding-top: 40px;
+}
+.pd-top-80{
+    padding-top: 80px;
 }
 /* END OF PADDING */
 
@@ -312,53 +314,53 @@ footer{
 
 /* MARGIN */
 
-.mg-80-top{
-    margin-top: 80px;
-}
-.mg-5-right{
-    margin-right: 5px;
-}
 .mg-15-top{
     margin-top: 15px;
-}
-.mg-100-bottom{
-    margin-bottom: 100px;
-}
-.mg-40-bottom{
-    margin-bottom: 40px;
 }
 .mg-40-top{
     margin-top: 40px;
 }
-.mg-40-left{
-    margin-left: 40px;
-}
 .mg-70-top{
     margin-top: 70px;
+}
+.mg-80-top{
+    margin-top: 80px;
 }
 .mg-100-top{
     margin-top: 100px;
 }
-.mg-20-bottom{
-    margin-bottom: 20px;
+.mg-150-top{
+    margin-top: 150px;
 }
 .mg-10-bottom{
     margin-bottom: 10px;
 }
+.mg-20-bottom{
+    margin-bottom: 20px;
+}
 .mg-30-bottom{
     margin-bottom: 30px;
+}
+.mg-40-bottom{
+    margin-bottom: 40px;
 }
 .mg-50-bottom{
     margin-bottom: 50px;
 }
-.mg-40-right{
-    margin-right: 40px;
+.mg-100-bottom{
+    margin-bottom: 100px;
 }
-.mg-150-top{
-    margin-top: 150px;
+.mg-40-left{
+    margin-left: 40px;
+}
+.mg-5-right{
+    margin-right: 5px;
 }
 .mg-30-right{
     margin-right: 30px;
+}
+.mg-40-right{
+    margin-right: 40px;
 }
 /* END OF MARGIN */
 
